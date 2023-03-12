@@ -1,0 +1,11 @@
+#logo{
+    animation: right-slide 10s linear;
+  }
+  @keyframes right-slide {
+    from {
+    transform: translateX(400px)
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }

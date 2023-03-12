@@ -1,0 +1,52 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(100deg);
+  }
+}
+
+.firstanim{
+  animation: left-slide 5s ease-in-out;
+
+}
+@keyframes left-slide {
+  from {
+  transform: translateY(-80px)
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.button{
+  animation: up-slide 5s linear;
+
+}
+@keyframes up-slide {
+  from {
+  transform: translateY(40px)
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.right-slide{
+  animation: right-slide 5s ease-in-out;
+}
+@keyframes right-slide {
+  from {
+  transform: translateY(200px)
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
